@@ -1,0 +1,39 @@
+*{
+    padding:0;
+    margin: 0;
+   
+}
+body{
+    background-image: url(cs.jpeg);
+    height: 100vh;
+    background-size: cover;
+    box-sizing:border-box;
+    background-position: center;
+     color: whitesmoke;
+    font-family: sans-serif;
+}
+.Menu {
+    background-color: cyan;
+    text-align: center;
+}
+.Menu ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+ } 
+ .Menu ul li{
+    width: 120px;
+    margin: 15px;
+    padding:15px;
+}
+ a{
+    text-decoration: none;
+}
+ a:hover{
+    color: red;
+ }
+ .active, .Menu ul li:hover{
+    background-color: rgb(223, 206, 123);
+
+ }
+ 
